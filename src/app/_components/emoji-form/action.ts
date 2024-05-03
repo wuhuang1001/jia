@@ -49,7 +49,7 @@ export async function createEmoji(prevFormState: FormState | undefined, formData
   // console.log(analyse(formData))
   // console.log("---------------------")
   // console.log(formData)
-  console.log(analyse(formData))
+  // console.log(analyse(formData))
   // AnalyseData(analyse(formData))
 
   // console.log("---------------------")
