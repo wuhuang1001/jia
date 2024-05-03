@@ -1,7 +1,5 @@
 import React from "react";
 import { Suspense } from "react";
-import { EmojiGrid } from "../emoji-grid";
-import { EmojiCount } from "../emoji-count";
 import { EmojiForm } from "../emoji-form";
 import { ShowResult } from "../result-show/index";
 import { FormDataProvider } from "../data-context/index";
