@@ -26,7 +26,7 @@ const FormContext = createContext<FormDataContextType>({
     setFormData: () => {},
   });
 
-const FormDataProvider = ({ children }) => {
+const FormDataProvider = ({ children } : {children:any}) => {
   const [formData, setFormData] = useState<FormData>({});
 
   return (
